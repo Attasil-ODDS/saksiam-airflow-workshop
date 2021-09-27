@@ -1,0 +1,27 @@
+[2021-09-27 15:51:30,958] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.echo_hello 2021-09-27T15:40:00+00:00 [queued]>
+[2021-09-27 15:51:31,008] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.echo_hello 2021-09-27T15:40:00+00:00 [queued]>
+[2021-09-27 15:51:31,025] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:31,026] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-09-27 15:51:31,028] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:31,071] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): echo_hello> on 2021-09-27T15:40:00+00:00
+[2021-09-27 15:51:31,083] {standard_task_runner.py:52} INFO - Started process 35695 to run task
+[2021-09-27 15:51:31,101] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'day1_challenge2', 'echo_hello', '2021-09-27T15:40:00+00:00', '--job-id', '100', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/day1_challenge2.py', '--cfg-path', '/tmp/tmpxw4bc0lk', '--error-file', '/tmp/tmp8oy3ufph']
+[2021-09-27 15:51:31,112] {standard_task_runner.py:77} INFO - Job 100: Subtask echo_hello
+[2021-09-27 15:51:31,462] {logging_mixin.py:109} INFO - Running <TaskInstance: day1_challenge2.echo_hello 2021-09-27T15:40:00+00:00 [running]> on host 196580edc338
+[2021-09-27 15:51:31,840] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Attasil Chitwirote
+AIRFLOW_CTX_DAG_ID=day1_challenge2
+AIRFLOW_CTX_TASK_ID=echo_hello
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-27T15:40:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-27T15:40:00+00:00
+[2021-09-27 15:51:31,857] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-09-27 15:51:31,866] {subprocess.py:63} INFO - Running command: ['bash', '-c', "echo 'hello'"]
+[2021-09-27 15:51:32,005] {subprocess.py:74} INFO - Output:
+[2021-09-27 15:51:32,018] {subprocess.py:78} INFO - hello
+[2021-09-27 15:51:32,023] {subprocess.py:82} INFO - Command exited with return code 0
+[2021-09-27 15:51:32,158] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=day1_challenge2, task_id=echo_hello, execution_date=20210927T154000, start_date=20210927T155130, end_date=20210927T155132
+[2021-09-27 15:51:32,240] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-27 15:51:32,416] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

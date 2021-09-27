@@ -1,0 +1,23 @@
+[2021-09-27 15:51:34,041] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.say_hello 2021-09-27T15:51:25.107283+00:00 [queued]>
+[2021-09-27 15:51:34,075] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.say_hello 2021-09-27T15:51:25.107283+00:00 [queued]>
+[2021-09-27 15:51:34,080] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:34,081] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-09-27 15:51:34,088] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:34,143] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): say_hello> on 2021-09-27T15:51:25.107283+00:00
+[2021-09-27 15:51:34,154] {standard_task_runner.py:52} INFO - Started process 35701 to run task
+[2021-09-27 15:51:34,167] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'day1_challenge2', 'say_hello', '2021-09-27T15:51:25.107283+00:00', '--job-id', '102', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/day1_challenge2.py', '--cfg-path', '/tmp/tmpxe9cqien', '--error-file', '/tmp/tmpsp4w0gnp']
+[2021-09-27 15:51:34,172] {standard_task_runner.py:77} INFO - Job 102: Subtask say_hello
+[2021-09-27 15:51:34,278] {logging_mixin.py:109} INFO - Running <TaskInstance: day1_challenge2.say_hello 2021-09-27T15:51:25.107283+00:00 [running]> on host 196580edc338
+[2021-09-27 15:51:34,513] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Attasil Chitwirote
+AIRFLOW_CTX_DAG_ID=day1_challenge2
+AIRFLOW_CTX_TASK_ID=say_hello
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-27T15:51:25.107283+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-27T15:51:25.107283+00:00
+[2021-09-27 15:51:34,528] {logging_mixin.py:109} INFO - Hello Saksiam!!!
+[2021-09-27 15:51:34,532] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-27 15:51:34,571] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=day1_challenge2, task_id=say_hello, execution_date=20210927T155125, start_date=20210927T155134, end_date=20210927T155134
+[2021-09-27 15:51:34,650] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-27 15:51:34,823] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

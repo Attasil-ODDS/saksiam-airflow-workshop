@@ -1,0 +1,22 @@
+[2021-09-27 15:51:36,533] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.print_log_message 2021-09-27T15:51:25.107283+00:00 [queued]>
+[2021-09-27 15:51:36,564] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: day1_challenge2.print_log_message 2021-09-27T15:51:25.107283+00:00 [queued]>
+[2021-09-27 15:51:36,565] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:36,574] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-09-27 15:51:36,577] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 15:51:36,632] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): print_log_message> on 2021-09-27T15:51:25.107283+00:00
+[2021-09-27 15:51:36,644] {standard_task_runner.py:52} INFO - Started process 35718 to run task
+[2021-09-27 15:51:36,671] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'day1_challenge2', 'print_log_message', '2021-09-27T15:51:25.107283+00:00', '--job-id', '104', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/day1_challenge2.py', '--cfg-path', '/tmp/tmp7plll70a', '--error-file', '/tmp/tmpos76xmk6']
+[2021-09-27 15:51:36,697] {standard_task_runner.py:77} INFO - Job 104: Subtask print_log_message
+[2021-09-27 15:51:36,867] {logging_mixin.py:109} INFO - Running <TaskInstance: day1_challenge2.print_log_message 2021-09-27T15:51:25.107283+00:00 [running]> on host 196580edc338
+[2021-09-27 15:51:37,243] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Attasil Chitwirote
+AIRFLOW_CTX_DAG_ID=day1_challenge2
+AIRFLOW_CTX_TASK_ID=print_log_message
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-27T15:51:25.107283+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-27T15:51:25.107283+00:00
+[2021-09-27 15:51:37,267] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-27 15:51:37,324] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=day1_challenge2, task_id=print_log_message, execution_date=20210927T155125, start_date=20210927T155136, end_date=20210927T155137
+[2021-09-27 15:51:37,892] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-27 15:51:38,128] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check
