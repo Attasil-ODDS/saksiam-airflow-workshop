@@ -790,3 +790,129 @@ airflow.exceptions.AirflowException: Task is missing the start_date parameter
 [2021-09-27 16:09:05,961] {logging_mixin.py:109} INFO - [2021-09-27 16:09:05,961] {dag.py:1834} INFO - Sync 1 DAGs
 [2021-09-27 16:09:05,989] {logging_mixin.py:109} INFO - [2021-09-27 16:09:05,989] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T15:50:00+00:00
 [2021-09-27 16:09:06,008] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.107 seconds
+[2021-09-27 16:09:36,299] {processor.py:162} INFO - Started process (PID=42665) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:09:36,305] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:09:36,308] {logging_mixin.py:109} INFO - [2021-09-27 16:09:36,308] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:09:36,347] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:09:36,388] {logging_mixin.py:109} INFO - [2021-09-27 16:09:36,388] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:09:36,414] {logging_mixin.py:109} INFO - [2021-09-27 16:09:36,414] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T15:50:00+00:00
+[2021-09-27 16:09:36,431] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.142 seconds
+[2021-09-27 16:10:07,121] {processor.py:162} INFO - Started process (PID=42871) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:07,124] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:10:07,127] {logging_mixin.py:109} INFO - [2021-09-27 16:10:07,127] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:07,164] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:07,205] {logging_mixin.py:109} INFO - [2021-09-27 16:10:07,205] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:10:07,233] {logging_mixin.py:109} INFO - [2021-09-27 16:10:07,233] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:10:07,251] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.134 seconds
+[2021-09-27 16:10:37,917] {processor.py:162} INFO - Started process (PID=43062) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:37,921] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:10:37,925] {logging_mixin.py:109} INFO - [2021-09-27 16:10:37,925] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:37,969] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:10:38,000] {logging_mixin.py:109} INFO - [2021-09-27 16:10:38,000] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:10:38,029] {logging_mixin.py:109} INFO - [2021-09-27 16:10:38,029] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:10:38,046] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.139 seconds
+[2021-09-27 16:11:08,450] {processor.py:162} INFO - Started process (PID=43264) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:08,459] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:11:08,462] {logging_mixin.py:109} INFO - [2021-09-27 16:11:08,462] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:08,503] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:08,543] {logging_mixin.py:109} INFO - [2021-09-27 16:11:08,543] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:11:08,569] {logging_mixin.py:109} INFO - [2021-09-27 16:11:08,568] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:11:08,589] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.145 seconds
+[2021-09-27 16:11:38,730] {processor.py:162} INFO - Started process (PID=43454) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:38,738] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:11:38,740] {logging_mixin.py:109} INFO - [2021-09-27 16:11:38,740] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:38,768] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:11:38,800] {logging_mixin.py:109} INFO - [2021-09-27 16:11:38,800] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:11:38,829] {logging_mixin.py:109} INFO - [2021-09-27 16:11:38,829] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:11:38,847] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.123 seconds
+[2021-09-27 16:12:08,976] {processor.py:162} INFO - Started process (PID=43657) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:08,980] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:12:08,982] {logging_mixin.py:109} INFO - [2021-09-27 16:12:08,982] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:09,007] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:09,036] {logging_mixin.py:109} INFO - [2021-09-27 16:12:09,036] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:12:09,062] {logging_mixin.py:109} INFO - [2021-09-27 16:12:09,062] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:12:09,084] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.116 seconds
+[2021-09-27 16:12:39,658] {processor.py:162} INFO - Started process (PID=43850) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:39,662] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:12:39,665] {logging_mixin.py:109} INFO - [2021-09-27 16:12:39,664] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:39,687] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:12:39,713] {logging_mixin.py:109} INFO - [2021-09-27 16:12:39,713] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:12:39,734] {logging_mixin.py:109} INFO - [2021-09-27 16:12:39,734] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:12:39,754] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.104 seconds
+[2021-09-27 16:13:09,897] {processor.py:162} INFO - Started process (PID=44052) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:09,900] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:13:09,902] {logging_mixin.py:109} INFO - [2021-09-27 16:13:09,902] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:09,927] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:09,954] {logging_mixin.py:109} INFO - [2021-09-27 16:13:09,954] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:13:09,983] {logging_mixin.py:109} INFO - [2021-09-27 16:13:09,983] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:13:10,000] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.106 seconds
+[2021-09-27 16:13:40,643] {processor.py:162} INFO - Started process (PID=44244) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:40,648] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:13:40,649] {logging_mixin.py:109} INFO - [2021-09-27 16:13:40,649] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:40,686] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:13:40,716] {logging_mixin.py:109} INFO - [2021-09-27 16:13:40,716] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:13:40,739] {logging_mixin.py:109} INFO - [2021-09-27 16:13:40,739] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:13:40,755] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.116 seconds
+[2021-09-27 16:14:10,968] {processor.py:162} INFO - Started process (PID=44449) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:10,975] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:14:10,978] {logging_mixin.py:109} INFO - [2021-09-27 16:14:10,978] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:11,015] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:11,052] {logging_mixin.py:109} INFO - [2021-09-27 16:14:11,051] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:14:11,080] {logging_mixin.py:109} INFO - [2021-09-27 16:14:11,080] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:14:11,098] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.138 seconds
+[2021-09-27 16:14:41,886] {processor.py:162} INFO - Started process (PID=44641) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:41,890] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:14:41,892] {logging_mixin.py:109} INFO - [2021-09-27 16:14:41,892] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:41,920] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:14:41,955] {logging_mixin.py:109} INFO - [2021-09-27 16:14:41,955] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:14:41,981] {logging_mixin.py:109} INFO - [2021-09-27 16:14:41,981] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:14:42,006] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.130 seconds
+[2021-09-27 16:15:12,340] {processor.py:162} INFO - Started process (PID=44843) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:12,343] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:15:12,345] {logging_mixin.py:109} INFO - [2021-09-27 16:15:12,344] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:12,378] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:12,414] {logging_mixin.py:109} INFO - [2021-09-27 16:15:12,414] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:15:12,440] {logging_mixin.py:109} INFO - [2021-09-27 16:15:12,440] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:15:12,459] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.123 seconds
+[2021-09-27 16:15:43,070] {processor.py:162} INFO - Started process (PID=45037) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:43,078] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:15:43,080] {logging_mixin.py:109} INFO - [2021-09-27 16:15:43,080] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:43,191] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:43,233] {logging_mixin.py:109} INFO - [2021-09-27 16:15:43,233] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:15:43,257] {logging_mixin.py:109} INFO - [2021-09-27 16:15:43,257] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:15:43,274] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.218 seconds
+[2021-09-27 16:15:45,213] {processor.py:162} INFO - Started process (PID=45042) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:45,215] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:15:45,217] {logging_mixin.py:109} INFO - [2021-09-27 16:15:45,217] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:45,252] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:15:45,283] {logging_mixin.py:109} INFO - [2021-09-27 16:15:45,282] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:15:45,306] {logging_mixin.py:109} INFO - [2021-09-27 16:15:45,306] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:15:45,333] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.127 seconds
+[2021-09-27 16:16:15,975] {processor.py:162} INFO - Started process (PID=45245) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:15,978] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:16:15,980] {logging_mixin.py:109} INFO - [2021-09-27 16:16:15,980] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:16,016] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:16,126] {logging_mixin.py:109} INFO - [2021-09-27 16:16:16,126] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:16:16,197] {logging_mixin.py:109} INFO - [2021-09-27 16:16:16,196] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:16:16,224] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.259 seconds
+[2021-09-27 16:16:46,362] {processor.py:162} INFO - Started process (PID=45441) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:46,374] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:16:46,392] {logging_mixin.py:109} INFO - [2021-09-27 16:16:46,392] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:46,448] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:16:46,483] {logging_mixin.py:109} INFO - [2021-09-27 16:16:46,483] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:16:46,505] {logging_mixin.py:109} INFO - [2021-09-27 16:16:46,505] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:16:46,527] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.169 seconds
+[2021-09-27 16:17:16,606] {processor.py:162} INFO - Started process (PID=45644) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:16,610] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:17:16,612] {logging_mixin.py:109} INFO - [2021-09-27 16:17:16,612] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:16,653] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:16,716] {logging_mixin.py:109} INFO - [2021-09-27 16:17:16,716] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:17:16,765] {logging_mixin.py:109} INFO - [2021-09-27 16:17:16,765] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:17:16,779] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.178 seconds
+[2021-09-27 16:17:47,238] {processor.py:162} INFO - Started process (PID=45837) to work on /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:47,242] {processor.py:613} INFO - Processing file /opt/airflow/dags/day1_challenge1.py for tasks to queue
+[2021-09-27 16:17:47,244] {logging_mixin.py:109} INFO - [2021-09-27 16:17:47,244] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:47,270] {processor.py:623} INFO - DAG(s) dict_keys(['day1_challenge1']) retrieved from /opt/airflow/dags/day1_challenge1.py
+[2021-09-27 16:17:47,298] {logging_mixin.py:109} INFO - [2021-09-27 16:17:47,298] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-09-27 16:17:47,378] {logging_mixin.py:109} INFO - [2021-09-27 16:17:47,378] {dag.py:2287} INFO - Setting next_dagrun for day1_challenge1 to 2021-09-27T16:00:00+00:00
+[2021-09-27 16:17:47,393] {processor.py:170} INFO - Processing /opt/airflow/dags/day1_challenge1.py took 0.159 seconds

@@ -25,7 +25,11 @@ with DAG(
   node8 = DummyOperator(task_id="8")
   node9 = DummyOperator(task_id="9")
 
-  node1 >> node2 >> node3 >> node4 >> node9
-  node2 >> node6 >> node8 >> node9
-  node1 >> node5 >> [node6, node7] >> node8 >> node9
+  # node1 >> node2 >> node3 >> node4 >> node9
+  # node2 >> node6 >> node8 >> node9
+  # node1 >> node5 >> [node6, node7] >> node8 >> node9
+
+  node1 >> [node2, node5] >> node6 >> node8 >> node9
+  node2 >> node3 >> node4 >> node9
+  node5 >> node7 >> node8
 
