@@ -1,0 +1,27 @@
+[2021-09-27 14:07:33,392] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: example_complex.update_entry 2021-09-27T14:06:38.240034+00:00 [queued]>
+[2021-09-27 14:07:33,453] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: example_complex.update_entry 2021-09-27T14:06:38.240034+00:00 [queued]>
+[2021-09-27 14:07:33,455] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 14:07:33,456] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-09-27 14:07:33,457] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-27 14:07:33,481] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): update_entry> on 2021-09-27T14:06:38.240034+00:00
+[2021-09-27 14:07:33,492] {standard_task_runner.py:52} INFO - Started process 1352 to run task
+[2021-09-27 14:07:33,519] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'example_complex', 'update_entry', '2021-09-27T14:06:38.240034+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', '/home/***/.local/lib/python3.6/site-packages/***/example_dags/example_complex.py', '--cfg-path', '/tmp/tmpej3lfobu', '--error-file', '/tmp/tmpvv_mbjbn']
+[2021-09-27 14:07:33,526] {standard_task_runner.py:77} INFO - Job 11: Subtask update_entry
+[2021-09-27 14:07:33,755] {logging_mixin.py:109} INFO - Running <TaskInstance: example_complex.update_entry 2021-09-27T14:06:38.240034+00:00 [running]> on host fa8cc667bc0b
+[2021-09-27 14:07:33,890] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_complex
+AIRFLOW_CTX_TASK_ID=update_entry
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-27T14:06:38.240034+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-27T14:06:38.240034+00:00
+[2021-09-27 14:07:33,893] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-09-27 14:07:33,896] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'echo update_entry']
+[2021-09-27 14:07:33,912] {subprocess.py:74} INFO - Output:
+[2021-09-27 14:07:33,917] {subprocess.py:78} INFO - update_entry
+[2021-09-27 14:07:33,919] {subprocess.py:82} INFO - Command exited with return code 0
+[2021-09-27 14:07:33,973] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=example_complex, task_id=update_entry, execution_date=20210927T140638, start_date=20210927T140733, end_date=20210927T140733
+[2021-09-27 14:07:34,044] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-27 14:07:34,101] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check
